@@ -1,0 +1,7 @@
+*~
+src/*~
+obj
+obj/*
+exe
+exe/*
+
