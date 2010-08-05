@@ -1,0 +1,9 @@
+Couch Shell CHANGES
+===================
+
+Version 0.0.1
+-------------
+
+Initial creation of project using Apache CouchDB compatible licensing:
+
+ * Created banner, prompt and main loop
