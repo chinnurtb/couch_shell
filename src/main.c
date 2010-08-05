@@ -19,7 +19,7 @@
 
 /* Release version */
 char PROG[] = "Couch Shell (cosh)";
-char VERSION[] = "v0.0.1";
+char VERSION[] = "v0.0.1a";
 
 /* Command number and char reader for prompt line */
 int  PNUM = 1;

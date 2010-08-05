@@ -16,9 +16,9 @@ Initially, cosh is only available on Linux / UNIX operating systems.
 The application is written in C.  The quickest way to install is as
 follows:
 
-  1) tar -xvf cosh-0.0.1.tgz
-  2) cd cosh-0.0.1
-  3) make
+  * tar -xvf cosh-0.0.1.tgz
+  * cd cosh-0.0.1
+  * make
 
 This will create an executable file named './cosh-0.0.1/exe/cosh'
 which you can execute using a full or relative pathname.  A make
@@ -28,6 +28,6 @@ Support & Contributions
 -----------------------
 
 If you need any help, or have suggestions or contributions, you can
-contact the author's email address jay@duomark.com.  All input is
+contact one of the authors (see the AUTHORS file).  All input is
 welcomed graciously.
 
