@@ -1,0 +1,9 @@
+CC := gcc
+CFLAGS := -I$(INC) -Wall
+
+EXE  := ../exe
+INC  := ../inc
+OBJ  := ../obj
+LIB  := ../lib
+LIBS := -lm
+

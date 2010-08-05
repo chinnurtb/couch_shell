@@ -1,10 +1,12 @@
-MK=make
-DIRS=src
+include Makefile.head
+
+DIRS := src
 
 all:
-	cd $(DIRS); make all
+	cd $(DIRS); $(MAKE) all
 
 .PHONY: clean
 
 clean:
-	cd $(DIRS); make clean
+	\rm -f *~
+	cd $(DIRS); $(MAKE) clean

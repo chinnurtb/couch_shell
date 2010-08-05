@@ -17,7 +17,7 @@ void show_prompt() {
 }
 
 void show_intro() {
-  printf("\n%s %s\n\n", PROG, VERSION);
+  printf("\n%s %s [^D to quit]\n\n", PROG, VERSION);
   show_prompt();
 }
 
@@ -25,6 +25,7 @@ void show_intro() {
 typedef void (*sighandler_t)(int);
 
 void handle_signal(int signum) {
+  printf("\n");
   show_prompt();
   fflush(stdout);
 }
